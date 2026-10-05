@@ -1,0 +1,89 @@
+{
+    "name": "tyhpdef/laravel-prompts-impl",
+    "description": "Implementation package for tyhpdef/laravel-prompts. Require tyhpdef/laravel-prompts, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "0.3.24.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/illuminate-support": "@dev",
+                "tyhpdef/illuminate-collections": "@dev",
+                "tyhpdef/illuminate-conditionable": "@dev",
+                "tyhpdef/illuminate-contracts": "@dev",
+                "tyhpdef/illuminate-macroable": "@dev",
+                "tyhpdef/illuminate-reflection": "@dev",
+                "tyhpdef/illuminate-container": "@dev",
+                "tyhpdef/doctrine-inflector": "@dev",
+                "tyhpdef/psr-container": "@dev",
+                "tyhpdef/psr-simple-cache": "@dev",
+                "tyhpdef/psr-log": "@dev",
+                "tyhpdef/php-ext-ctype": "@dev",
+                "tyhpdef/php-ext-mbstring": "@dev",
+                "tyhpdef/php-ext-intl": "@dev",
+                "tyhpdef/php-ext-pdo": "@dev",
+                "tyhpdef/laravel-serializable-closure": "@dev",
+                "tyhpdef/ramsey-uuid": "@dev",
+                "tyhpdef/ramsey-collection": "@dev",
+                "tyhpdef/league-uri": "@dev",
+                "tyhpdef/league-uri-interfaces": "@dev",
+                "tyhpdef/php-ext-gmp": "@dev",
+                "tyhpdef/psr-http-message": "@dev",
+                "tyhpdef/psr-http-factory": "@dev",
+                "tyhpdef/symfony-translation-contracts": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/laravel-prompts"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "laravel/prompts": "0.3.24"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/illuminate-support": "@dev",
+        "tyhpdef/illuminate-collections": "@dev",
+        "tyhpdef/illuminate-conditionable": "@dev",
+        "tyhpdef/illuminate-contracts": "@dev",
+        "tyhpdef/illuminate-macroable": "@dev",
+        "tyhpdef/illuminate-reflection": "@dev",
+        "tyhpdef/illuminate-container": "@dev",
+        "tyhpdef/doctrine-inflector": "@dev",
+        "tyhpdef/psr-container": "@dev",
+        "tyhpdef/psr-simple-cache": "@dev",
+        "tyhpdef/psr-log": "@dev",
+        "tyhpdef/php-ext-ctype": "@dev",
+        "tyhpdef/php-ext-mbstring": "@dev",
+        "tyhpdef/php-ext-intl": "@dev",
+        "tyhpdef/php-ext-pdo": "@dev",
+        "tyhpdef/laravel-serializable-closure": "@dev",
+        "tyhpdef/ramsey-uuid": "@dev",
+        "tyhpdef/ramsey-collection": "@dev",
+        "tyhpdef/league-uri": "@dev",
+        "tyhpdef/league-uri-interfaces": "@dev",
+        "tyhpdef/php-ext-gmp": "@dev",
+        "tyhpdef/psr-http-message": "@dev",
+        "tyhpdef/psr-http-factory": "@dev",
+        "tyhpdef/symfony-translation-contracts": "@dev"
+    }
+}
